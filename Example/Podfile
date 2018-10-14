@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHNibView_Example' do
+  pod 'HHNibView', :path => '../'
+
+  target 'HHNibView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
