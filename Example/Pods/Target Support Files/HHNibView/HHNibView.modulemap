@@ -1,0 +1,6 @@
+framework module HHNibView {
+  umbrella header "HHNibView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		19A965BDC0119E144E2C673A /* Pods_HHNibView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E81805CAF53E18C4449169 /* Pods_HHNibView_Example.framework */; };
 		2951FE362A57A48E8A65AB77 /* Pods_HHNibView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A8390C5E8F5431F4F61C55D /* Pods_HHNibView_Tests.framework */; };
+		565D0D4D2173BDAB004E741D /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565D0D4B2173BDAB004E741D /* CustomView.xib */; };
+		565D0D4E2173BDAB004E741D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565D0D4C2173BDAB004E741D /* CustomView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,10 +31,12 @@
 
 /* Begin PBXFileReference section */
 		1A8390C5E8F5431F4F61C55D /* Pods_HHNibView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHNibView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2239C8E0D74715E9CCCF4B2F /* HHNibView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HHNibView.podspec; path = ../HHNibView.podspec; sourceTree = "<group>"; };
+		2239C8E0D74715E9CCCF4B2F /* HHNibView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HHNibView.podspec; path = ../HHNibView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		22B82C0311EF0EB18B28A29B /* Pods-HHNibView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHNibView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHNibView_Tests/Pods-HHNibView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30D51C59E08978F0C1D8E7A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30D51C59E08978F0C1D8E7A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		44E81805CAF53E18C4449169 /* Pods_HHNibView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HHNibView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565D0D4B2173BDAB004E741D /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		565D0D4C2173BDAB004E741D /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HHNibView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHNibView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +48,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		BF4540763D3A89F0AB62D778 /* Pods-HHNibView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHNibView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHNibView_Example/Pods-HHNibView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C908D97D8E071517EBCFC3FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C908D97D8E071517EBCFC3FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CE8971E55219932BBDD41510 /* Pods-HHNibView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHNibView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHNibView_Example/Pods-HHNibView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FD3A30BA6942804546AAC119 /* Pods-HHNibView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHNibView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHNibView_Tests/Pods-HHNibView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +108,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				565D0D4C2173BDAB004E741D /* CustomView.swift */,
+				565D0D4B2173BDAB004E741D /* CustomView.xib */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -246,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				565D0D4D2173BDAB004E741D /* CustomView.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -334,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565D0D4E2173BDAB004E741D /* CustomView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
